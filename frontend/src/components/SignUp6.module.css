@@ -1,0 +1,470 @@
+.welcomeAboardMy {
+  margin: 0;
+  font-weight: 600;
+}
+.justACouple {
+  margin: 0;
+  font-size: 23.22px;
+}
+.welcomeAboardMyContainer {
+  position: relative;
+  line-height: 200%;
+}
+.leftSide,
+.welcomeAboardMyFriendJustWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.leftSide {
+  align-self: stretch;
+  flex: 1;
+  background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(116, 61, 46, 0.76),
+      #181e41 75.52%,
+      #181e41 85.42%,
+      #181e41
+    ),
+    radial-gradient(50% 50%at 50% 50%, #f7cbfd, #7758d1);
+  backdrop-filter: blur(1.73px);
+  overflow: hidden;
+  padding: var(--padding-62xl) 0;
+  justify-content: flex-end;
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(rgba(89, 26, 26, 0.71), rgba(89, 26, 26, 0.71)),
+    #9c3aff;
+  width: 32.64px;
+  height: 32.64px;
+  z-index: 0;
+}
+.div {
+  position: absolute;
+  margin: 0 !important;
+  top: 7.68px;
+  left: 13.44px;
+  font-size: 15.36px;
+  line-height: 17.28px;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--neutral-100);
+  text-align: left;
+  z-index: 1;
+}
+.ellipseParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  border-radius: var(--br-19xl-4);
+}
+.frameItem {
+  top: 0.48px;
+  left: 0;
+  background-color: var(--neutral-300);
+  width: 94.17px;
+  height: 5.76px;
+}
+.frameInner {
+  top: -0.2px;
+  left: 1.14px;
+  background: linear-gradient(rgba(89, 26, 26, 0.71), rgba(89, 26, 26, 0.71)),
+    #9c3aff;
+  width: 93px;
+  height: 6px;
+}
+.rectangleParent {
+  position: relative;
+  width: 94.17px;
+  height: 6.24px;
+}
+.progressStep1Bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.div1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 7.68px;
+  left: 12.48px;
+  font-size: 15.36px;
+  line-height: 17.28px;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--neutral-100);
+  text-align: left;
+  z-index: 1;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameChild2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: linear-gradient(rgba(89, 26, 26, 0.71), rgba(89, 26, 26, 0.71)),
+    #9c3aff;
+  width: 32.64px;
+  height: 32.64px;
+}
+.div2 {
+  position: absolute;
+  top: 5.76px;
+  left: 11.52px;
+  line-height: 22.08px;
+}
+.ellipseContainer {
+  position: relative;
+  width: 32.64px;
+  height: 32.64px;
+}
+.div3 {
+  position: absolute;
+  margin: 0 !important;
+  top: 5.76px;
+  left: 11.52px;
+  font-size: 15.36px;
+  line-height: 22.08px;
+  font-family: var(--font-dm-sans);
+  color: var(--neutral-100);
+  text-align: left;
+  z-index: 1;
+}
+.progressStep1BarParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mid);
+}
+.thankyouForYour {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-10xl);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--main-black);
+  text-align: center;
+  display: inline-block;
+  height: 35.73px;
+  flex-shrink: 0;
+}
+.thankyouForYourTimeWrapper {
+  align-self: stretch;
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pleaseReviewAll {
+  align-self: stretch;
+  position: relative;
+  font-size: 21.6px;
+  line-height: 36px;
+  font-family: var(--font-dm-sans);
+  color: var(--neutral-600);
+  text-align: center;
+  display: inline-block;
+  height: 35.73px;
+  flex-shrink: 0;
+}
+.pleaseReviewAllTheInformatWrapper {
+  align-self: stretch;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttonGlowvariant2Child {
+  filter: blur(32px);
+  opacity: 0.58;
+  z-index: 0;
+}
+.buttonGlowvariant2Child,
+.buttonGlowvariant2Inner,
+.buttonGlowvariant2Item {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+}
+.buttonGlowvariant2Item {
+  filter: blur(7px);
+  opacity: 0.8;
+  z-index: 1;
+}
+.buttonGlowvariant2Inner {
+  background-color: var(--color-brown);
+  backdrop-filter: blur(24px);
+  z-index: 2;
+}
+.image1Icon {
+  position: relative;
+  width: 24px;
+  height: 24.96px;
+  object-fit: cover;
+  display: none;
+  z-index: 3;
+}
+.connectWith,
+.metamask {
+  position: relative;
+  font-size: var(--extra-font-size-18-semibold-size);
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  text-shadow: 0 3.320699691772461px 16.23px rgba(0, 0, 0, 0.27),
+    0 1.9533528089523315px 4.96px rgba(0, 0, 0, 0.15);
+}
+.connectWith {
+  align-self: stretch;
+  flex: 1;
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-lavender);
+  text-align: center;
+  z-index: 4;
+}
+.metamask {
+  font-family: var(--font-space-grotesk);
+  color: var(--neutral-100);
+  text-align: left;
+  z-index: 5;
+}
+.buttonGlowvariant2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 13px 23px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 13px;
+}
+.buttonGlow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 348px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonGlowtrue {
+  align-self: stretch;
+  position: relative;
+  height: 49px;
+}
+.buttonGlowtrueWrapper,
+.frameParent,
+.signincontainer,
+.signinform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttonGlowtrueWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12xs) 0;
+  background-color: transparent;
+  width: 348px;
+  box-sizing: border-box;
+}
+.frameParent,
+.signincontainer,
+.signinform {
+  align-self: stretch;
+}
+.frameParent {
+  height: 763.36px;
+  gap: 11px;
+}
+.signincontainer,
+.signinform {
+  padding: 0 var(--padding-22xl);
+}
+.signincontainer {
+  flex: 1;
+  background-color: var(--neutral-100);
+  padding: var(--padding-38xl) 0 0;
+  text-align: left;
+  font-size: 15.36px;
+  font-family: var(--font-dm-sans);
+}
+.signIn7 {
+  position: relative;
+  background-color: var(--darkish-color-dark-bg);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 39.81px;
+  color: var(--neutral-100);
+  font-family: var(--font-open-sans);
+}
+
+
+/* Styles for the popup & Loading animation */
+/* Styles for the modal */
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+
+}
+
+.modalContent {
+  /* background-color: #fff; */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modalContentText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-2xs-8);
+}
+
+.loadingText {
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  font-size: var(--font-size-5xl);
+}
+
+/* Loading animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loadingIcon {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #333;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Animation for the popup */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 960px) {
+  .leftSide {
+    display: none;
+    flex: unset;
+    align-self: stretch;
+  }
+  .signinform {
+    align-self: stretch;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+    animation: 1s ease 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .signincontainer {
+    flex: unset;
+    align-self: stretch;
+  }
+  .signIn7,
+  .signincontainer {
+    height: 100%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .leftSide {
+    flex: unset;
+    align-self: stretch;
+  }
+  .progressStep1BarParent {
+    flex-direction: row;
+  }
+  .signincontainer {
+    flex: unset;
+    align-self: stretch;
+  }
+  .signIn7 {
+    width: 100%;
+    flex-direction: column;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .progressStep1BarParent {
+    gap: var(--gap-0);
+  }
+}

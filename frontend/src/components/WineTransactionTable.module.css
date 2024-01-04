@@ -1,0 +1,346 @@
+/* color variables */
+:root {
+    --clr-primary: #81d4fa;
+    --clr-primary-light: #e1f5fe;
+    --clr-primary-dark: #4fc3f7;
+    --clr-gray100: #f9fbff;
+    --clr-gray150: #f4f6fb;
+    --clr-gray200: #eef1f6;
+    --clr-gray300: #e1e5ee;
+    --clr-gray400: #767b91;
+    --clr-gray500: #4f546c;
+    --clr-gray600: #2a324b;
+    --clr-gray700: #161d34;
+    --clr-pending: #fff0c2;
+    --clr-pending-font: #a68b00;
+    --clr-unpaid: #ffcdd2;
+    --clr-unpaid-font: #c62828;
+    --clr-paid: #c8e6c9;
+    --clr-paid-font: #388e3c;
+    --clr-link: #2962ff;
+  }
+  
+  /* border radius */
+  :root {
+    --radius: 0.2rem;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wineTransactionTable {
+    width: 100%;
+    padding: 1% 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px var(--clr-gray300);
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+  }
+  
+  table thead {
+    box-shadow: 0 5px 10px var(--clr-gray300);
+  }
+  
+  table th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+  
+  table td {
+    padding: 1rem 2rem;
+  }
+  
+  table a {
+    text-decoration: none;
+    color: var(--clr-link);
+  }
+  
+  table .status {
+    border-radius: var(--radius);
+    padding: 0.2rem 1rem;
+    text-align: left;
+  }
+  
+  table .status-pending {
+    background-color: var(--clr-pending);
+    color: var(--clr-pending-font);
+  }
+  
+  table .status-paid {
+    background-color: var(--clr-paid);
+    color: var(--clr-paid-font);
+  }
+  
+  table .status-unpaid {
+    background-color: var(--clr-unpaid);
+    color: var(--clr-unpaid-font);
+  }
+  
+  table .amount {
+    text-align: center;
+  }
+  
+  /* Color alternating rows */
+  table tr:nth-child(even) {
+    background-color: var(--clr-gray150);
+  }
+  
+
+
+
+
+  .text {
+    /* width: 92px; */
+    /* height: 31.56px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 11.52px;
+  }
+  .avatarsGroup1Horizontal {
+    position: relative;
+    width: 55.04px;
+    height: 21.29px;
+    object-fit: cover;
+  }
+  .bid {
+    position: relative;
+    /* letter-spacing: -0.02em; */
+    /* line-height: 15.36px; */
+    font-size: 0.8em;
+    /* padding: 5px; */
+    text-align: center;
+    color: var(--primary-purple-blue-500-primary);
+    color: #1B2559;
+  }
+  .backgroundChild {
+    border-radius: var(--br-25xl-8);
+    background-color: #11047A;
+    border-radius: 30px;
+   
+  }
+  .background,
+  .backgroundChild {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    padding: 0 5px;
+    
+  }
+  .mediumButton1 {
+
+    line-height: 15.36px;
+    
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    
+  }
+ 
+  .mediumButton {
+    position: relative;
+    padding: 10px 20px;
+    text-align: center;
+    color: var(--secondary-primary-white);
+    background: linear-gradient(
+      89.92deg,
+      #6473ff,
+      rgba(190, 83, 255, 0.7) 48.44%
+    );
+    border-radius: 10px;
+    
+  }
+  .fakurianDesignLolixkjevgeUnIcon,
+  .fakurianDesignPgdwBhdbpiUnIcon,
+  .moA9RdZJe4Unsplash1Icon {
+    position: absolute;
+    height: 191.71%;
+    width: 101.95%;
+    top: 0;
+    right: -1.95%;
+    bottom: -91.71%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .fakurianDesignLolixkjevgeUnIcon,
+  .fakurianDesignPgdwBhdbpiUnIcon {
+    height: 123.9%;
+    width: 123.7%;
+    right: -23.7%;
+    bottom: -23.9%;
+  }
+  .fakurianDesignPgdwBhdbpiUnIcon {
+    height: 132.2%;
+    width: 117.53%;
+    right: -17.53%;
+    bottom: -32.2%;
+  }
+  .badgeStatsFavorite {
+    position: absolute;
+    height: 16.59%;
+    width: 11.04%;
+    top: 6.83%;
+    right: 4.55%;
+    bottom: 76.59%;
+    left: 84.42%;
+  }
+  .card {
+    position: relative;
+    border-radius: 11.52px;
+    width: 181.12px;
+    height: 131.2px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .mediumLocation {
+    align-self: stretch;
+    flex: 1;
+    border-radius: var(--br-smi-8);
+    background-color: var(--secondary-primary-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 13.440001487731934px 0.64000004529953px;
+    gap: 35.2px;
+  }
+  .text2 {
+    /* width: 95px; */
+    /* height: 31.56px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contentTitle {
+    font-size: 1.2em;
+    color: #1B2559;
+  }
+  .tag {
+    font-size: 0.8em;
+    color: #A3AED0;
+    text-align: center;
+  }
+  .frameIcon {
+    position: absolute;
+    height: 100%;
+    width: 111.04%;
+    top: 0;
+    right: -11.04%;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .mediumLocation1 {
+    
+    align-self: stretch;
+    border-radius: var(--br-smi-8);
+    background-color: var(--secondary-primary-white);
+    overflow: hidden;
+    display: flex;   
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 13.440001487731934px 0.64000004529953px;
+    gap: 20.28px;
+    border-radius: 30px;
+    /* background-color: rgb(234, 234, 234); */
+    /* box-shadow: 0px 4px 6px rgba(240, 240, 240, 0.791);  */
+    box-shadow: 0 3px 10px 0 rgba(136,148,171,.2),0 24px 20px -24px rgba(71,82,107,.1);
+
+    /* max-width: 300px; */
+    width: 265px;
+  }
+  .mediumLocationParent,
+  .quickBuy {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .mediumLocationParent {
+    width: 882.56px;
+    height: 236.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0 12.800000190734863px 0 0;
+    box-sizing: border-box;
+    gap: 12.8px;
+    font-size: 8.96px;
+    background-color: red;
+    color: var(--secondary-dark-grey-900);
+  }
+
+  .wineTransactionsCardView {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: red; */
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-basis: 33%;
+    /* flex: 1; */
+  }
+  .frameParent6 {
+    /* align-self: stretch; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    /* justify-content: center; */
+    gap: 50px;
+    margin-bottom: 50px;
+    
+  }
+
+.wineTransactions {
+    width: 100%;
+
+}
+
+.recentlyAdded {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 20.48px;
+    color: rgb(44, 44, 44);
+    font-size: 1.3em;
+}
+.recentlyAddedWrapper {
+  
+  align-self: stretch;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px
+}

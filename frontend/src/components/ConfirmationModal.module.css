@@ -1,0 +1,101 @@
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    backdrop-filter: blur(1px);
+}
+
+.button {
+    background-color: #121212;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    padding: 24px 12px;
+    text-transform: uppercase;
+  }
+  
+  .showtime {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  .modalExit {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0px 0px 72px rgba(0, 0, 0, 0.18);
+    box-sizing: border-box;
+    color: #484848;
+    display: inline-block;
+    max-width: 360px;
+    /* opacity: 0; */
+    transform: translateY(24px);
+    transition: transform 0.14s, opacity 0.14s ease-in-out;
+    /* visibility: hidden; */
+    z-index: 10;
+  }
+  
+  .modalExit.showtime {
+    transform: translateY(0);
+  }
+  
+  .modalExitContent {
+    padding: 24px;
+    text-align: center;
+  }
+  
+  .modalExitTitle {
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+  }
+  
+  .modalExitDesc {
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.6;
+  }
+  
+  .modalExitButton {
+    -webkit-font-smoothing: antialiased;
+    border-right: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-size: .7em;
+    font-weight: 600;
+    letter-spacing: .09em;
+    padding: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.14s, color 0.14s ease-in-out;
+    width: 50%;
+  }
+  
+  .modalExitButton:last-child {
+    border-right: none;
+  }
+  
+  .modalExitButton:hover {
+    background-color: #fff;
+    color: #121212;
+  }
+  

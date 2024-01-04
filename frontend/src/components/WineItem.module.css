@@ -1,0 +1,266 @@
+.productCard {
+    position: relative;
+    max-width:270px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+
+
+  .productCard .logoCart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space-between; */
+  }
+  
+  .productCard .logoCart img {
+    height: 40px;
+    width: 40px;
+    color: blue;
+    /* object-fit: cover; */
+  }
+  
+  .productCard .logoCart i {
+    font-size: 27px;
+    color: #707070;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .productCard .logoCart i:hover {
+    color: #333;
+  }
+  
+  .productCard .mainImages {
+    position: relative;
+    height: 210px;
+    width: 100%;
+    margin-bottom: 20px;
+    /* background-color: red; */
+  }
+  
+  .productCard .mainImages img {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* transform: rotate(18deg); */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+    border-radius: 10px;
+    
+  }
+  
+  .productCard .mainImages img.active {
+    opacity: 1;
+  }
+  
+  .productCard .shoeDetails .shoeName {
+    font-size: 20px;
+    font-weight: 600;
+    color: #161616;
+  }
+  
+  .productCard .shoeDetails p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    text-align: justify;
+  }
+  
+  .productCard .shoeDetails .stars i {
+    margin: 0 -1px;
+    color: #333;
+  }
+  
+  .productCard .colorPrice .colorOption {
+    display: flex;
+    align-items: center;
+  }
+  
+  .colorPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .colorPrice .colorOption .color {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-right: 8px;
+  }
+  
+  .colorOption .circles {
+    display: flex;
+  }
+  
+  .colorOption .circles .circle {
+    height: 18px;
+    width: 18px;
+    background: #0071C7;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  
+  .colorOption .circles .circle.blue.active {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0071C7;
+  }
+  
+  .colorOption .circles .circle.pink {
+    background: #FA1795;
+  }
+  
+  .colorOption .circles .circle.pink.active {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #FA1795;
+  }
+  
+  .colorOption .circles .circle.yellow {
+    background: #F5DA00;
+  }
+  
+  .colorOption .circles .circle.yellow.active {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #F5DA00;
+  }
+  
+  .colorPrice .price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .colorPrice .price .priceNum {
+    font-size: 20px;
+    font-weight: 600;
+    color: #707070;
+  }
+  
+  .colorPrice .price .priceLetter {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: -4px;
+    color: #707070;
+  }
+  
+  .productCard .button {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 30px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .editButton {
+    position: relative;
+    height: 20px;
+    width: 50px;
+    /* width: 100   %; */
+    margin-bottom: 10px;
+    border-radius: 25px;
+    
+    /* margin-top: 30px; */
+    /* overflow: hidden; */
+    /* padding: 20px; */
+    /* margin-left: 50px; */
+    /* padding: 10px; */
+/*  */
+  }
+
+  .editButton button {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .editButton .buttonLayer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* left: -100%; */
+    background-image: linear-gradient(135deg, #e9d4f1, #0d2d3abe, #d9d2dc, #cfb9ff);
+    /* background-color:rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
+    transition: all 0.4s ease;
+    border-radius: 25px;
+  }
+
+
+  .activeButton {
+    flex: 1;
+    text-align: right;
+    background: rgba(244, 201, 201, 0.092);
+    position: relative;
+    height: 20px;
+    width: 50px;
+    /* width: 100   %; */
+    margin-bottom: 10px;
+    border-radius: 25px;
+  }
+
+  .activeButton > button {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+    color: #f30000;
+    cursor: pointer;
+  }
+  
+  .productCard .button .buttonLayer {
+    position: absolute;
+    height: 100%;
+    width: 300%;
+    left: -100%;
+    background-image: linear-gradient(135deg, #9708CC, #43CBFF, #9708CC, #43CBFF);
+    transition: all 0.4s ease;
+    border-radius: 25px;
+  }
+  
+  .productCard .button:hover .buttonLayer {
+    left: 0;
+  }
+  
+  .productCard .button button {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
+  .search11Icon {
+    color: rgb(148, 12, 12);
+    /* background: blue; */
+
+  }

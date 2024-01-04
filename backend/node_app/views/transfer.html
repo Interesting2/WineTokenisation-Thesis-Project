@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My DApp</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.0/dist/web3.min.js"></script>
+  <script type="text/javascript">
+
+    
+    let contractAddress, contractABI;
+
+    // 获取智能合约地址和 ABI
+    async function getContractInfo() {
+      // 从后端 API 获取智能合约地址和 ABI
+      fetch('../contract/getContract')
+        .then(response => response.json())
+        .then(data => {
+          // 存储智能合约地址和 ABI
+          contractAddress = data.contract_address;
+          contractABI = data.contract_abi;
+          console.log("contract address is: ",contractAddress);
+          // 调用智能合约方法
+          callMyFunction();
+        });
+    }
+
+    // 调用智能合约方法
+    async function callMyFunction() {
+      const web3 = new Web3(window.ethereum);
+      await window.ethereum.request({ method: 'eth_requestAccounts' });
+      const accounts = await web3.eth.getAccounts();
+      const contract = new web3.eth.Contract(contractABI, contractAddress);
+      console.log(contract); 
+      console.log("hello"); 
+      // const amount = web3.utils.toWei('0.05','ether');
+      contract.methods.deposit()
+      // contract.methods.fillOrder(0,10).send({from: accounts[0], value: '10'})
+        .on('transactionHash', function(hash){
+          console.log('Transaction hash:', hash);
+        })
+        .on('confirmation', function(confirmationNumber, receipt){
+          console.log('Confirmation number:', confirmationNumber);
+        })
+        .on('receipt', function(receipt){
+          console.log('Receipt:', receipt);
+        })
+        .on('error', function(error){
+          console.error(error);
+        });
+    }
+  </script>
+</head>
+<body>
+  <h1>My DApp</h1>
+  <button onclick="getContractInfo()">Get Contract Info</button>
+</body>
+</html>

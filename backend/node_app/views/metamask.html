@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Connect MetaMask</title>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.0/dist/web3.min.js"></script>
+  <script>
+    // Request to connnect MetaMask & get current address
+    async function connectMetaMask() {
+      try {
+        // connect MetaMask
+        const web3 = new Web3(window.ethereum);
+        await window.ethereum.enable();
+        
+        // get connected account
+        const accounts = await web3.eth.getAccounts();
+        console.log('MetaMask Connnected, Current Account:', accounts[0]);
+
+        return { message: 'MetaMask Connnected', account: accounts[0] };
+      } catch (error) {
+        console.error('MetaMask Connected Failed:', error);
+        throw new Error('MetaMask Connected Failed');
+      }
+    }
+
+    // Handle the connect event
+    async function handleConnectMetaMask() {
+      try {
+        console.log('connect metaMask');
+        const result = await connectMetaMask();
+        console.log(result.message, result.account);
+      } catch (error) {
+        alert(error.message);
+      }
+    }
+  </script>
+</head>
+<body>
+  <button onclick="handleConnectMetaMask()">Connect MetaMask</button>
+</body>
+</html>

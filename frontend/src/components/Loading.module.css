@@ -1,0 +1,40 @@
+
+/* Waves.module.css */
+.center {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wave {
+    width: 5px;
+    height: 100px;
+    background: linear-gradient(45deg, rgb(255, 0, 174), #fff);
+    margin: 10px;
+        animation: loadEffect 1s linear infinite;
+    border-radius: 20px;
+  }
+  
+  .delay1 { animation-delay: 0.1s; }
+  .delay2 { animation-delay: 0.2s; }
+  .delay3 { animation-delay: 0.3s; }
+  .delay4 { animation-delay: 0.4s; }
+  .delay5 { animation-delay: 0.5s; }
+  .delay6 { animation-delay: 0.6s; }
+  .delay7 { animation-delay: 0.7s; }
+  .delay8 { animation-delay: 0.8s; }
+  .delay9 { animation-delay: 0.9s; }
+  
+  @keyframes loadEffect {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  

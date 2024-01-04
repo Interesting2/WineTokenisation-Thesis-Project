@@ -1,0 +1,406 @@
+.welcomeAboardMy {
+  margin: 0;
+  font-weight: 600;
+}
+.justACouple {
+  margin: 0;
+  font-size: 23.22px;
+}
+.welcomeAboardMyContainer {
+  position: relative;
+  line-height: 200%;
+}
+.leftSide,
+.welcomeAboardMyFriendJustWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.leftSide {
+  align-self: stretch;
+  flex: 1;
+  background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(116, 61, 46, 0.76),
+      #181e41 75.52%,
+      #181e41 85.42%,
+      #181e41
+    ),
+    radial-gradient(50% 50%at 50% 50%, #f7cbfd, #7758d1);
+  backdrop-filter: blur(1.73px);
+  overflow: hidden;
+  padding: var(--padding-62xl) 0;
+  justify-content: flex-end;
+}
+.welcomeBack,
+.welcomeBackPlease {
+  position: relative;
+  font-family: var(--size-16-size-16-regular);
+  color: var(--main-black);
+  text-align: left;
+}
+.welcomeBack {
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+}
+.welcomeBackPlease {
+  font-size: var(--size-16-size-16-regular-size);
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.email {
+  flex: 1;
+  position: relative;
+  font-size: var(--size-14-size-14-semibold-size);
+  font-weight: 500;
+  font-family: var(--size-16-size-16-regular);
+  color: var(--main-black);
+  text-align: left;
+}
+.emailWrapper,
+.inputChild {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.emailWrapper {
+  align-self: stretch;
+  display: flex;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs) 0;
+  align-items: flex-start;
+}
+.inputChild {
+  border: 1px solid var(--main-black);
+  font-weight: 500;
+  font-family: var(--size-16-size-16-regular);
+  font-size: var(--size-14-size-14-semibold-size);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  padding: var(--padding-mini) var(--padding-6xl) var(--padding-base)
+    var(--padding-xl);
+  align-items: center;
+  box-sizing: border-box;
+}
+.input,
+.inputChild,
+.inputItem {
+  align-self: stretch;
+  display: flex;
+}
+.input {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.inputItem {
+  border: 1px solid var(--main-black);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  height: 48px;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-6xl) var(--padding-base)
+    var(--padding-xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.input1,
+.inputsform {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.inputsform {
+  height: 175px;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rememberChild {
+  cursor: pointer;
+  position: relative;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--main-black);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.rememberFor30 {
+  position: relative;
+  font-size: var(--size-14-size-14-semibold-size);
+  font-weight: 500;
+  font-family: var(--size-16-size-16-regular);
+  color: var(--main-black);
+  text-align: left;
+}
+.remember {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-4xs);
+}
+.forgotPassword {
+  position: relative;
+  font-size: var(--size-14-size-14-semibold-size);
+  font-weight: 500;
+  font-family: var(--size-16-size-16-regular);
+  color: var(--main-black);
+  text-align: right;
+}
+.reminders {
+  /* width: 404 px; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.main {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.signIn2 {
+  position: relative;
+  font-size: var(--size-16-size-16-regular-size);
+  font-weight: 600;
+  font-family: var(--size-16-size-16-regular);
+  color: var(--neutral-100);
+  text-align: center;
+}
+.button,
+.signinbuttons {
+  align-self: stretch;
+  display: flex;
+}
+.button {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-maroon);
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingButton {
+  display: flex;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-maroon);
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  /* padding: 0; */
+}
+
+.signinbuttons {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dontHaveAn,
+.signUpFor {
+  font-family: var(--size-16-size-16-regular);
+}
+.signUpFor {
+  font-weight: 500;
+}
+.dontHaveAnContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--size-14-size-14-semibold-size);
+  color: var(--main-black);
+  text-align: left;
+  display: inline-block;
+}
+.signupChild {
+  position: relative;
+  width: 97.87px;
+  height: 13.68px;
+}
+.signup {
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.bottom,
+.signIn1,
+.signincontainer,
+.signinform,
+.signup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom {
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.signIn1,
+.signincontainer,
+.signinform {
+  flex: 1;
+  justify-content: center;
+}
+.signIn1 {
+  gap: var(--gap-6xl);
+}
+.signincontainer,
+.signinform {
+  padding: 0 var(--padding-22xl);
+}
+.signincontainer {
+  background-color: var(--neutral-100);
+  padding: var(--padding-38xl) 0 0;
+}
+.signIn {
+  position: relative;
+  background-color: var(--darkish-color-dark-bg);
+  box-shadow: 0 4px 4px rgba(63, 5, 5, 0.25);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 39.81px;
+  color: var(--neutral-100);
+  font-family: var(--font-open-sans);
+}
+
+
+/* Styles for the popup & Loading animation */
+/* Styles for the modal */
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+
+}
+
+.modalContent {
+  /* background-color: #fff; */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modalContentText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-2xs-8);
+}
+
+.loadingText {
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  font-size: var(--font-size-5xl);
+}
+
+/* Loading animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loadingIcon {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #333;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Animation for the popup */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+@media screen and (max-width: 960px) {
+  .leftSide {
+    display: none;
+    flex: unset;
+    align-self: stretch;
+  }
+  .reminders,
+  .signIn1,
+  .signinform {
+    align-self: stretch;
+    width: auto;
+  }
+  .signinform {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+    opacity: 0;
+  }
+  .signinform.animate {
+    animation: 1s ease 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .signincontainer {
+    flex: unset;
+    height: 100vh;
+    align-self: stretch;
+  }
+  .signIn,
+  .signincontainer {
+    flex-direction: column;
+  }
+}

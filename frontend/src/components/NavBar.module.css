@@ -1,0 +1,195 @@
+.dashboardIcon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .dashboard1 {
+    position: relative;
+    font-size: var(--size-14-size-14-semibold-size);
+    font-weight: 600;
+    font-family: var(--size-14-size-14-semibold);
+    color: var(--main-black);
+    text-align: left;
+  }
+  .bar {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-mini);
+    background-color: var(--white);
+    border-radius: var(--br-5xs);
+    box-shadow: 0 4px 4px rgba(181, 181, 181, 0.25);
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .transactionsIcon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  .transactions {
+    position: relative;
+    font-size: var(--size-14-size-14-semibold-size);
+    font-weight: 500;
+    font-family: var(--size-14-size-14-semibold);
+    color: var(--text-color-text-2);
+    text-align: left;
+  }
+  .bar1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-mini);
+    background-color: transparent;
+    border-radius: var(--br-5xs);
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .settings {
+    position: relative;
+    font-weight: 500;
+  }
+  .bar4,
+  .option {
+    justify-content: flex-start;
+  }
+  .bar4 {
+    border-radius: var(--br-5xs);
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-mini);
+    box-sizing: border-box;
+    align-items: center;
+    gap: var(--gap-xs);
+  }
+  .option {
+    flex-direction: column;
+    gap: var(--gap-11xs);
+  }
+  .main,
+  .navbar,
+  .option,
+  .sidebar {
+    display: flex;
+    align-items: flex-start;
+  }
+  .main {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: var(--size-14-size-14-semibold-size);
+    color: var(--text-color-text-2);
+    font-family: var(--size-16-size-16-regular);
+  }
+  .navbar,
+  .sidebar {
+    align-self: stretch;
+  }
+  .sidebar {
+    /* background-color: var(--color-gray-100); */
+    flex-direction: column;
+    padding: var(--padding-11xl) var(--padding-6xl) 100px;  
+    justify-content: center;
+    gap: var(--gap-21xl);
+  
+  }
+  .navbar {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+    background-color: white;
+  }
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .dashboard1 {
+    display: none;
+  }
+  .bar {
+    width: auto;
+    align-self: unset;
+  }
+  .transactions {
+    display: none;
+  }
+  .bar1 {
+    width: auto;
+    align-self: unset;
+  }
+  .settings {
+    display: none;
+  }
+  .bar4 {
+    width: auto;
+    align-self: unset;
+  }
+  .quickBuy,
+  .sidebar {
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar:hover .dashboard1,
+  .navbar:hover .settings,
+  .navbar:hover .transactions {
+    display: flex;
+    width: 120px;
+  }
+  .quickBuy {
+    align-self: stretch;
+    width: auto;
+  }
+  .dashboarddata {
+    flex: unset;
+    align-self: stretch;
+  }
+  .walletSchedule {
+    align-self: stretch;
+    width: auto;
+  }
+  .dashboarddataParent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 960px) {
+  .dashboard2 {
+    display: none;
+  }
+  .topBar1 {
+    flex: 1;
+  }
+  .walletSchedule {
+    align-self: stretch;
+    width: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tabBarItemParent {
+    align-self: stretch;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-0);
+  }
+  .frameParent {
+    flex-direction: column;
+  }
+  .recentTransaction,
+  .recentTransaction1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

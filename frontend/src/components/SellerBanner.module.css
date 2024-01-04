@@ -1,0 +1,65 @@
+.banner {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5.720000267028809px 9.295001029968262px 31.46px -4.29px #dfdbf6;
+    
+  }
+  
+  .bannerContent {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .bannerTitle {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    font-weight: 300;
+    color: rgba(23, 23, 23, 0.785);
+  }
+  
+  .bannerDescription {
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+  }
+  
+  .bannerButton {
+    background-color: #232323;
+    background-image: linear-gradient(135deg, #e9d4f1, #0d2d3abe, #d9d2dc, #cfb9ff);
+
+    color: #fef9ff;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #ff5733;
+    }
+  }
+  
+  .s {
+    color: #732fb7;
+  }
+  .u {
+    color: #b02ede;
+  }
+  .m {
+    color: #c139bc;
+  }
+  .m1 {
+    color: rgba(243, 95, 237, 0.95);
+  }
+  .a {
+    color: rgba(243, 95, 237, 0.74);
+  }
+  .r {
+    color: rgba(246, 71, 239, 0.95);
+  }
+  .y {
+    color: rgba(243, 39, 235, 0.95);
+  }

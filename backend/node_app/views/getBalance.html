@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web3.js Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script>
+        async function getBalance() {
+            try {
+                // connect MetaMask
+                const web3 = new Web3(window.ethereum);
+                await window.ethereum.request({ method: 'eth_requestAccounts' });
+                
+                // get connected account
+                const accounts = await web3.eth.getAccounts();
+                //console.log('MetaMask Connnected, Current Account:', accounts[0]);
+                // convert wei to eth
+                const balance = await web3.eth.getBalance(accounts[0]);
+                const etherBalance = web3.utils.fromWei(balance, 'ether');
+                document.getElementById('balance').innerHTML = etherBalance;
+                
+                return { message: 'Get Account Balance', etherBalance:etherBalance };
+            } catch (error) {
+                console.error('Get Account Balance Failed:', error);
+                throw new Error('Get Account Balance Failed');
+            }
+        }
+
+        // Handle the getBalance event
+        async function handleGetBalance() {
+            try {
+                console.log('Try to get balance');
+                const result = await getBalance();
+                console.log(result.message, result.etherBalance);
+            } catch (error) {
+                alert(error.message);
+            }
+        }
+    </script>
+  </head>
+  <body>
+    <h1>Web3 Example</h1>
+    <p>Account balance: <span id="balance"></span> ETH</p>
+    <button id="connect" onclick="handleGetBalance()">Get Balance</button>
+  </body>
+</html>

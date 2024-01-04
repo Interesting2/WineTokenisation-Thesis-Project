@@ -1,0 +1,55 @@
+
+
+/* .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+} */
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: #222222a2; /* Replace with the desired color */
+}
+
+.input[type='file'] {
+  padding: 0;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+textarea {
+  resize: none;
+}
+
+.button {
+  background-color: #a87afd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

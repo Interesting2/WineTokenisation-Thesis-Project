@@ -1,0 +1,1024 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x7915E78Cd2b42EE8550Fc38c0F43C613Bb4B1317",
+    "txHash": "0x039bd127c9c4c98d41cdf1b73e616579c7cc828ef21199db690a4e6563492877"
+  },
+  "proxies": [
+    {
+      "address": "0xb22cB2F9B620ede24CB06C8f0C8892e464A9439b",
+      "txHash": "0xb34309d53f2160f30d6534c884b2d4e754d53fed1e44af4a5ea0c3142c003291",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xEdFcC3B0c67E8b048beA38a19709C71da188c603",
+      "txHash": "0x98ae29dc5d2bfc70657d32b46fe116db1003772326ee50bd4a8846c96292bdda",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x61De0402cEFb675C6738D33cEd517Be23392b326",
+      "txHash": "0x7accacbc89adeb2f0d5288efc1ade18c808e254664cf56bc94abaf4ccd31bb79",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x854370ED908CD42c48763707B3d0626Ed461A7E9",
+      "txHash": "0x1dff08d21959a5c0b3d0c13f8e46c7d13b8f30bea971d762a29d5f2d888beb2d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc9C4Aa81B74AeC4060248B99d784750Ec15562Cc",
+      "txHash": "0xc7c5dd16324e7fde406b0c59968be66d7b9a1d693fcf25f316c9937f931996e4",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9cBe413E67cda27fdAa849C98b71bac068a24D15",
+      "txHash": "0xe5b67eec0e9cae796a38f4afc87db46884c2348b268ab0592e7c950a3cc36880",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb2939916027A8ED4fdb56Ec3399E0d809B7d732f",
+      "txHash": "0x4d87d96c0516752cc4185ee3a7ca51e4a2e03a58c6b5005cc4728c586116bdbd",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xEd971dF2a6573aC5554825Dc1F32A6c337F82e65",
+      "txHash": "0xb1b6503acf20c10800c18ade430daaa78318259386ab773ba1ad7a4fe226e84a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x90DBa14acC78782D54793CA5BA33f8D0639b43d3",
+      "txHash": "0x465078a20181b71b11cb32eff4469fea11f125481459b111cd2cc1aba862121e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x05E00F209Ff50cD1D40a6d5d6CBAE040E1B8299E",
+      "txHash": "0x3be621f033dcab897e89214c3e5904322b75732e5253bd7144b020288cc5d39f",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "6c08779282002c5fa509a38781fa62d25088b8a21458e717bb128fde8943e549": {
+      "address": "0x7b33FbC9Bea1cEAC6C8c856F18457a9A4FCaF0D5",
+      "txHash": "0x0d677215c330c83a59e335dd900ef2a1412cee7870607b95e3a1ecc2e5c76bae",
+      "layout": {
+        "solcVersion": "0.8.21",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:40"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:46"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:47"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:376"
+          },
+          {
+            "contract": "WineToken",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\TokenIssuance.sol:8"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        },
+        "namespaces": {}
+      }
+    },
+    "851c4a98bd8705fc7902db60e652dcf8088df326a7c0c049405b0633e502a74b": {
+      "address": "0x1F513CBB2D0739058528DA5c96d2221bbDd45055",
+      "txHash": "0x5077ccd062440157c9bd37c9dda62b9f2eef65348fa8892db37f083897ca4a0d",
+      "layout": {
+        "solcVersion": "0.8.21",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:40"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:46"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:47"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:376"
+          },
+          {
+            "contract": "ManagementToken",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\TokenIssuance.sol:29"
+          },
+          {
+            "contract": "ManagementToken",
+            "label": "_holders",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "..\\project:\\contracts\\TokenIssuance.sol:32"
+          },
+          {
+            "contract": "ManagementToken",
+            "label": "_isHolder",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\TokenIssuance.sol:33"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        },
+        "namespaces": {}
+      }
+    },
+    "7701dad0d6023fecade0bdb2882dc7dbe5cc060db10b904aba71140f1495e8bf": {
+      "address": "0xfC6A06B7dA6A948c4F6804072742a84E047a3ab8",
+      "txHash": "0xab02a91c74fc00b610aebd32916983143914c9c6b4d7d6e303a15c36be018ae1",
+      "layout": {
+        "solcVersion": "0.8.21",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "contract": "TokenTrading",
+            "label": "wineToken",
+            "type": "t_contract(WineToken)1618",
+            "src": "..\\project:\\contracts\\TokenTrading.sol:10"
+          },
+          {
+            "contract": "TokenTrading",
+            "label": "managementToken",
+            "type": "t_contract(ManagementToken)1887",
+            "src": "..\\project:\\contracts\\TokenTrading.sol:11"
+          },
+          {
+            "contract": "TokenTrading",
+            "label": "wineTokenPrice",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\TokenTrading.sol:13"
+          },
+          {
+            "contract": "TokenTrading",
+            "label": "managementTokenPrice",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\TokenTrading.sol:14"
+          },
+          {
+            "contract": "TokenTrading",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\TokenTrading.sol:15"
+          },
+          {
+            "contract": "TokenTrading",
+            "label": "pendingRewards",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\project:\\contracts\\TokenTrading.sol:16"
+          },
+          {
+            "contract": "TokenTrading",
+            "label": "orders",
+            "type": "t_array(t_struct(Order)2004_storage)dyn_storage",
+            "src": "..\\project:\\contracts\\TokenTrading.sol:43"
+          }
+        ],
+        "types": {
+          "t_contract(WineToken)1618": {
+            "label": "contract WineToken"
+          },
+          "t_contract(ManagementToken)1887": {
+            "label": "contract ManagementToken"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_array(t_struct(Order)2004_storage)dyn_storage": {
+            "label": "struct TokenTrading.Order[]"
+          },
+          "t_struct(Order)2004_storage": {
+            "label": "struct TokenTrading.Order",
+            "members": [
+              {
+                "label": "trader",
+                "type": "t_address_payable"
+              },
+              {
+                "label": "isBuyOrder",
+                "type": "t_bool"
+              },
+              {
+                "label": "token",
+                "type": "t_contract(IERC20Upgradeable)985"
+              },
+              {
+                "label": "tokenAmount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "etherAmount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "filled",
+                "type": "t_uint256"
+              },
+              {
+                "label": "isActive",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_contract(IERC20Upgradeable)985": {
+            "label": "contract IERC20Upgradeable"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        },
+        "namespaces": {}
+      }
+    },
+    "8e80a518e3e0494fdc77fa369e72d59cbd4123b966851358d9c9eebfe2c43567": {
+      "address": "0x60c7c05E8429495dE9E41635Fa2BD6cA3016e846",
+      "txHash": "0x7919eccefde485f46dc282f9dc56eee81922cedaa04aad89ba45b21161fbbdbd",
+      "layout": {
+        "solcVersion": "0.8.21",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "wineToken",
+            "type": "t_contract(WineToken)1429",
+            "src": "..\\project:\\contracts\\WineTrading.sol:8"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\WineTrading.sol:9"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "wines",
+            "type": "t_mapping(t_uint256,t_struct(Wine)2563_storage)",
+            "src": "..\\project:\\contracts\\WineTrading.sol:22"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "nextWineId",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\WineTrading.sol:23"
+          }
+        ],
+        "types": {
+          "t_contract(WineToken)1429": {
+            "label": "contract WineToken"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_struct(Wine)2563_storage)": {
+            "label": "mapping(uint256 => struct WineTrading.Wine)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_struct(Wine)2563_storage": {
+            "label": "struct WineTrading.Wine",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256"
+              },
+              {
+                "label": "name",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "stock",
+                "type": "t_uint256"
+              },
+              {
+                "label": "intro",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "vintage",
+                "type": "t_uint16"
+              },
+              {
+                "label": "seller",
+                "type": "t_address"
+              },
+              {
+                "label": "isActive",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint16": {
+            "label": "uint16"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        },
+        "namespaces": {}
+      }
+    },
+    "cf6bb7de71898114cb6eec5171486cb4afd13492730a01d0cb8448e65eccd4ca": {
+      "address": "0xe0ec77618f7660135071eaa67B8B850bd7654FC5",
+      "txHash": "0x09999e6c5600c0c1a8b795add407c2e8dd198dfe88f9de8fdf2f544c70c505a5",
+      "layout": {
+        "solcVersion": "0.8.21",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "contract": "IncentiveMechanism",
+            "label": "wineToken",
+            "type": "t_contract(WineToken)1429",
+            "src": "..\\project:\\contracts\\IncentiveMechanism.sol:7"
+          },
+          {
+            "contract": "IncentiveMechanism",
+            "label": "referrals",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "..\\project:\\contracts\\IncentiveMechanism.sol:8"
+          }
+        ],
+        "types": {
+          "t_contract(WineToken)1429": {
+            "label": "contract WineToken"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        },
+        "namespaces": {}
+      }
+    },
+    "1f4857f0fa6f53a97dc7385fdf6c9ebc316a8eef4d762edc3119f1f46cbe4b39": {
+      "address": "0x664a0A38EC76ca216864f4905915f4702e090360",
+      "txHash": "0x650827e373a6d493823f4090fbba76ae4397f9d5e7a0d2e5850fc62209a4abf9",
+      "layout": {
+        "solcVersion": "0.8.21",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "wineToken",
+            "type": "t_contract(WineToken)1429",
+            "src": "..\\project:\\contracts\\WineTrading.sol:8"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\WineTrading.sol:9"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "wines",
+            "type": "t_mapping(t_uint256,t_struct(Wine)2563_storage)",
+            "src": "..\\project:\\contracts\\WineTrading.sol:22"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "nextWineId",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\WineTrading.sol:23"
+          }
+        ],
+        "types": {
+          "t_contract(WineToken)1429": {
+            "label": "contract WineToken"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_struct(Wine)2563_storage)": {
+            "label": "mapping(uint256 => struct WineTrading.Wine)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_struct(Wine)2563_storage": {
+            "label": "struct WineTrading.Wine",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256"
+              },
+              {
+                "label": "name",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "stock",
+                "type": "t_uint256"
+              },
+              {
+                "label": "intro",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "vintage",
+                "type": "t_uint16"
+              },
+              {
+                "label": "seller",
+                "type": "t_address"
+              },
+              {
+                "label": "isActive",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint16": {
+            "label": "uint16"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        },
+        "namespaces": {}
+      }
+    },
+    "cd6d45fd0d17a97f87fe5870264ac351d313787726e2035a256f3881566385a5": {
+      "address": "0x1Bc674e217D33c33972965C303209b6e484225a2",
+      "txHash": "0x0704d9aa3e452a9d73d23745dd13ee4919319fda0d6ce251f89854788d4160dd",
+      "layout": {
+        "solcVersion": "0.8.21",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "wineToken",
+            "type": "t_contract(WineToken)1429",
+            "src": "..\\project:\\contracts\\WineTrading.sol:8"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\WineTrading.sol:9"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "wines",
+            "type": "t_mapping(t_uint256,t_struct(Wine)2563_storage)",
+            "src": "..\\project:\\contracts\\WineTrading.sol:22"
+          },
+          {
+            "contract": "WineTrading",
+            "label": "nextWineId",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\WineTrading.sol:23"
+          }
+        ],
+        "types": {
+          "t_contract(WineToken)1429": {
+            "label": "contract WineToken"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_struct(Wine)2563_storage)": {
+            "label": "mapping(uint256 => struct WineTrading.Wine)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_struct(Wine)2563_storage": {
+            "label": "struct WineTrading.Wine",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256"
+              },
+              {
+                "label": "name",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "stock",
+                "type": "t_uint256"
+              },
+              {
+                "label": "intro",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "vintage",
+                "type": "t_uint16"
+              },
+              {
+                "label": "seller",
+                "type": "t_address"
+              },
+              {
+                "label": "isActive",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint16": {
+            "label": "uint16"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        },
+        "namespaces": {}
+      }
+    },
+    "b9239b7e996df54b636286217c7e58a0ea9525681f2abe03909075e47150a179": {
+      "address": "0x5AEc3B6664B3502773B870aB7157edf06EfCD3A3",
+      "txHash": "0xd3f08f7f64115884dc824ffda21e54dc4aadd96912ab9df9e9ab455fe28ef0c9",
+      "layout": {
+        "solcVersion": "0.8.21",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:40"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:46"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:47"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:376"
+          },
+          {
+            "contract": "WineToken",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\TokenIssuance.sol:9"
+          },
+          {
+            "contract": "WineToken",
+            "label": "_whitelist",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\TokenIssuance.sol:10"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        },
+        "namespaces": {}
+      }
+    },
+    "6849ff37840860cf8baaf558c8a566165571c01e16e3d959d6b8fb9a8ca8aa22": {
+      "address": "0x86ff8e9165687019b5E33be17ac5d0d69c5Be636",
+      "txHash": "0x770fb51325fd3c67ff842d295c43f45eb1bce08d19dc1be7cc3cb80d9b5c4898",
+      "layout": {
+        "solcVersion": "0.8.21",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:40"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:46"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:47"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:376"
+          },
+          {
+            "contract": "ManagementToken",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\TokenIssuance.sol:50"
+          },
+          {
+            "contract": "ManagementToken",
+            "label": "_holders",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "..\\project:\\contracts\\TokenIssuance.sol:53"
+          },
+          {
+            "contract": "ManagementToken",
+            "label": "_isHolder",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\TokenIssuance.sol:54"
+          },
+          {
+            "contract": "ManagementToken",
+            "label": "_whitelist",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\project:\\contracts\\TokenIssuance.sol:56"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        },
+        "namespaces": {}
+      }
+    }
+  }
+}

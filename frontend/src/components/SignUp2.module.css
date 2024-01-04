@@ -1,0 +1,438 @@
+.welcomeAboardMy {
+  margin: 0;
+  font-weight: 600;
+}
+.justACouple {
+  margin: 0;
+  font-size: 23.22px;
+}
+.welcomeAboardMyContainer {
+  position: relative;
+  line-height: 200%;
+}
+.leftSide,
+.welcomeAboardMyFriendJustWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.leftSide {
+  align-self: stretch;
+  flex: 1;
+  background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(116, 61, 46, 0.76),
+      #181e41 75.52%,
+      #181e41 85.42%,
+      #181e41
+    ),
+    radial-gradient(50% 50%at 50% 50%, #f7cbfd, #7758d1);
+  backdrop-filter: blur(1.73px);
+  overflow: hidden;
+  padding: var(--padding-62xl) 0;
+  justify-content: flex-end;
+}
+
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(rgba(89, 26, 26, 0.71), rgba(89, 26, 26, 0.71)),
+    #9c3aff;
+  width: 32.64px;
+  height: 32.64px;
+  z-index: 0;
+}
+.div {
+  position: absolute;
+  margin: 0 !important;
+  top: 7.68px;
+  left: 13.44px;
+  font-size: 15.36px;
+  line-height: 17.28px;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--neutral-100);
+  text-align: left;
+  z-index: 1;
+}
+.ellipseParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameItem,
+.rectangleDiv {
+  position: absolute;
+  border-radius: var(--br-19xl-4);
+}
+.frameItem {
+  top: 0.48px;
+  left: 0;
+  background-color: var(--neutral-300);
+  width: 94.17px;
+  height: 5.76px;
+}
+.rectangleDiv {
+  top: -0.2px;
+  left: 1.18px;
+  background: linear-gradient(rgba(89, 26, 26, 0.71), rgba(89, 26, 26, 0.71)),
+    #9c3aff;
+  width: 93px;
+  height: 6px;
+}
+.rectangleParent {
+  position: relative;
+  width: 94.17px;
+  height: 6.24px;
+}
+.progressStep1Bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.div1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 7.68px;
+  left: 12.48px;
+  font-size: 15.36px;
+  line-height: 17.28px;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--neutral-100);
+  text-align: left;
+  z-index: 1;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameChild1,
+.rectangleIcon {
+  border-radius: var(--br-19xl-4);
+  height: 5.76px;
+}
+.frameChild1 {
+  position: relative;
+  background-color: var(--neutral-300);
+  width: 94.17px;
+  z-index: 0;
+}
+.rectangleIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0.42px;
+  width: 47.08px;
+  z-index: 1;
+}
+.rectangleGroup {
+  border-radius: var(--br-19xl-4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameChild2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--neutral-300);
+  width: 32.64px;
+  height: 32.64px;
+}
+.div2 {
+  position: absolute;
+  top: 5.76px;
+  left: 11.52px;
+  line-height: 22.08px;
+}
+.ellipseContainer,
+.frameChild3 {
+  position: relative;
+  width: 32.64px;
+  height: 32.64px;
+}
+.frameChild3 {
+  border-radius: var(--br-19xl-4);
+  background-color: var(--neutral-300);
+  width: 94.17px;
+  height: 5.76px;
+}
+.rectangleWrapper {
+  border-radius: var(--br-19xl-4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameChild4 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--neutral-300);
+  width: 32.64px;
+  height: 32.64px;
+  z-index: 0;
+}
+.div3 {
+  position: absolute;
+  margin: 0 !important;
+  top: 5.76px;
+  left: 11.52px;
+  font-size: 15.36px;
+  line-height: 22.08px;
+  font-family: var(--font-dm-sans);
+  color: var(--neutral-600);
+  text-align: left;
+  z-index: 1;
+}
+.progressStep1BarParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mid);
+}
+.areYou18 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  font-family: var(--font-roboto);
+  color: var(--main-black);
+  text-align: left;
+  display: inline-block;
+  width: 256px;
+  height: 35.73px;
+  flex-shrink: 0;
+}
+.areYou18OrOlderWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.yes {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-open-sans);
+  color: var(--main-black);
+  text-align: left;
+}
+.yesWrapper {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--main-black);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-6xl) var(--padding-base)
+    var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.input,
+.noWrapper {
+  cursor: pointer;
+  background-color: transparent;
+  justify-content: center;
+}
+.input {
+  border: 0;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.noWrapper {
+  border: 1px solid var(--main-black);
+  padding: var(--padding-mini) var(--padding-6xl) var(--padding-base)
+    var(--padding-xl);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  color: #fff;
+}
+.input1,
+.inputContainer,
+.noWrapper {
+  display: flex;
+  align-items: center;
+}
+.input1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: var(--gap-16xl);
+}
+.frameGroup,
+.signincontainer,
+.signinform {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup {
+  height: 763.36px;
+  gap: 33px;
+}
+.signincontainer,
+.signinform {
+  padding: 0 var(--padding-22xl);
+}
+.signincontainer {
+  flex: 1;
+  background-color: var(--neutral-100);
+  padding: var(--padding-38xl) 0 0;
+  text-align: left;
+  font-size: 15.36px;
+  color: var(--neutral-600);
+  font-family: var(--font-dm-sans);
+}
+.signIn3 {
+  position: relative;
+  background-color: var(--darkish-color-dark-bg);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 39.81px;
+  color: var(--neutral-100);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 960px) {
+  .leftSide {
+    display: none;
+    flex: unset;
+    align-self: stretch;
+  }
+  .reminders,
+  .signIn,
+  .signinform {
+      align-self: stretch;
+      width: auto;
+  }
+  .signinform {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+    height: 100%;
+  }
+ 
+ 
+  .signincontainer {
+    flex: unset;
+    flex-direction: column;
+    align-self: stretch;
+    height: 100%;
+  }
+  .signIn3 {
+    /* height: auto; */
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .leftSide {
+    flex: unset;
+    align-self: stretch;
+  }
+  .progressStep1BarParent {
+    align-self: stretch;
+    width: auto;
+    flex-direction: row;
+  }
+  .input {
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputItem {
+    align-items: center;
+    justify-content: center;
+  }
+  .input1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputContainer {
+    flex-direction: column;
+    gap: var(--gap-mini);
+    align-items: center;
+    justify-content: center;
+  }
+  .signincontainer {
+    flex: unset;
+    align-self: stretch;
+  }
+  .signIn3 {
+    width: auto;
+    align-self: unset;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 700px) {
+  .leftSide {
+    flex: unset;
+    align-self: stretch;
+  }
+  .progressStep1BarParent {
+    width: auto;
+    align-self: unset;
+    gap: var(--gap-0);
+  }
+  .input {
+    width: 100%;
+  }
+  .input,
+  .input1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputContainer {
+    flex-direction: column;
+    gap: var(--gap-mini);
+
+  }
+  .signincontainer {
+    flex: unset;
+    align-self: stretch;
+  }
+  .signIn3 {
+    width: auto;
+    align-self: unset;
+    flex-direction: column;
+  }
+}

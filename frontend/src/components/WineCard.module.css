@@ -1,0 +1,384 @@
+.cardImageIcon,
+  .highfidelityDesign {
+    align-self: stretch;
+    position: relative;
+  }
+  .cardImageIcon {
+    max-width: 100%;
+    overflow: hidden;
+    height: 168px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .highfidelityDesign {
+    font-weight: 600;
+    color: rgb(67, 14, 58);
+    margin-top: 10px;
+    font-size: 1.1em;
+    
+  }
+  .makeClearDesign {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--size-14-size-14-medium-size);
+    color: var(--color-darkslategray-100);
+  }
+  .cardContent,
+  .titleHolder {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .titleHolder {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xs);
+  }
+  .cardContent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-lgi);
+  }
+  .progress {
+    flex: 1;
+    position: relative;
+  }
+  .title {
+    flex: 1;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .completedValue {
+    position: relative;
+    font-weight: 500;
+    color: var(--core-black);
+    display: none;
+    width: 33px;
+    flex-shrink: 0;
+  }
+  .progressInfo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .intial {
+    position: relative;
+    background-color: var(--light-gray-4);
+    width: 0;
+    height: 8px;
+  }
+  .slider1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-sandybrown);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div,
+  .slider {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .slider {
+    align-self: stretch;
+    border-radius: var(--br-5xl);
+    background-color: var(--color-whitesmoke-400);
+    height: 8px;
+  }
+  .div {
+    display: -webkit-inline-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    width: 18px;
+  }
+  .comments {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .div1 {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    flex-shrink: 0;
+  }
+  .commentsLinks,
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .commentsLinks {
+    flex: 1;
+    gap: var(--gap-11xs);
+  }
+  .image8Icon {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 27px);
+    width: 60.25px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .profile02,
+  .profile03 {
+    position: relative;
+    border-radius: var(--br-5xl);
+    background-color: var(--background-jnt-primary-background);
+    border: 1px solid var(--background-jnt-primary-background);
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .profile02 {
+    margin-left: -8px;
+  }
+  .profileStack {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .collaboration,
+  .progressStatus,
+  .taskCard {
+    align-self: stretch;
+    justify-content: flex-start;
+  }
+  .collaboration {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-base);
+    font-size: var(--small-size);
+  }
+  .progressStatus,
+  .taskCard {
+    flex-direction: column;
+  }
+  .progressStatus {
+    display: none;
+    align-items: center;
+    gap: var(--gap-5xs);
+    font-size: var(--size-14-size-14-medium-size);
+    color: var(--color-silver-100);
+  }
+  .taskCard {
+    border-radius: var(--br-xs);
+    background-color: var(--background-jnt-primary-background);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.02);
+    display: flex;
+    /* padding: var(--padding-base); */
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+
+  }
+  .addTask4 {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-gray-700);
+    text-align: left;
+  }
+  .ctaAddTask {
+    cursor: pointer;
+    border: 1px dashed var(--color-lightgray-100);
+    padding: var(--padding-xs) var(--padding-5xl);
+    background-color: var(--color-whitesmoke-300);
+    align-self: stretch;
+    border-radius: var(--br-xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xs);
+    background-color: #00000005;
+
+  }
+  .frameWrapper5,
+  .taskCardParent,
+  .title1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .taskCardParent {
+    align-self: stretch;
+    gap: var(--gap-base);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px 0px; 
+    /* clip-path: polygon(0% 0%, 100% 0%, 50% 70%); Use clip-path to create a triangle shape */
+    
+  }
+
+  .title1 {
+    flex: 1;
+  }
+
+  .frameWrapper5 {
+    width: 550px;
+    max-width: 250px;
+    margin-bottom: 20px; 
+    background-color: #ffffff; 
+    box-sizing: border-box; 
+    text-align: center; 
+    box-shadow: 0px 4px 6px rgba(236, 236, 236, 0.791); 
+    /* flex-basis: 0.5; */
+    border-radius: 20px;
+    /* padding-top: 5px; */
+    padding: 0px; 
+
+    background-color:  #555492;
+
+  }
+
+  .frameWrapper5:hover {
+    position: relative;
+    top: -15px;
+  }
+
+  .stockContainer {
+
+  }
+
+  .stockNum {
+    color: white;
+    font-weight: 600;
+  }
+
+  .quantityControl {
+    padding: 5px;
+    color: black; 
+  }
+
+  .quantityControl > button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.3em;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    /* background-color:red; */
+    cursor: pointer;
+  }
+
+  .quantity {
+    margin: 0 10px;
+  }
+
+  .title1 {
+    flex-direction: row;
+    gap: var(--gap-9xs);
+  }
+  .completedValue1 {
+    position: relative;
+    font-weight: 500;
+    color: var(--core-black);
+    display: inline-block;
+    width: 33px;
+    flex-shrink: 0;
+  }
+  .slider3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-tomato);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-141xl);
+  }
+  .collaboration1,
+  .frameParent6,
+  .frameParent7 {
+    /* align-self: stretch; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+  }
+  .collaboration1 {
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-size: var(--small-size);
+  }
+  .frameParent6,
+  .frameParent7 {
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+
+    
+  }
+  .exploreCollections {
+    flex: 1;
+    position: relative;
+    line-height: 114%;
+  }
+  .exploreCollectionsWrapper {
+    width: 214.4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .elevateYourCelebrations {
+    position: relative;
+    line-height: 137.5%;
+    display: inline-block;
+    width: 188.22px;
+    height: 31.99px;
+    flex-shrink: 0;
+    font-size: 1.2em;
+  }
+  .frameChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8.32px;
+    background-color: var(--color-blueviolet-100);
+    width: 48px;
+    height: 20.48px;
+    overflow: hidden;
+  }
+  .explore {
+    position: relative;
+    font-size: 8px;
+    line-height: 137.5%;
+    display: inline-block;
+    font-family: var(--font-manrope);
+    /* color: var(--background-jnt-primary-background); */
+    text-align: left;
+    width: 57.6px;
+    height: 17.28px;
+    flex-shrink: 0;
+    color: white;
+
+  }

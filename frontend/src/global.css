@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-space-grotesk: "Space Grotesk";
+  --button-text: Mulish;
+  --font-roboto: Roboto;
+  --size-16-size-16-regular: "Kumbh Sans";
+  --font-open-sans: "Open Sans";
+  --font-dm-sans: "DM Sans";
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --extra-font-size-18-semibold-size: 18px;
+  --button-text-size: 13px;
+  --size-16-size-16-regular-size: 16px;
+  --font-size-21xl: 40px;
+  --font-size-11xl: 30px;
+  --font-size-base-4: 15.4px;
+  --font-size-4xl-2: 23.2px;
+  --font-size-20xl-8: 39.8px;
+  --size-14-size-14-semibold-size: 14px;
+  --font-size-10xl: 29px;
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+  --font-size-mini-4: 14.4px;
+  --font-size-smi-6: 12.6px;
+  --font-size-xs: 12px;
+
+
+  /* fonts */
+  --font-inter: Inter;
+  --font-manrope: Manrope;
+  --font-space-grotesk: "Space Grotesk";
+  --font-dm-sans: "DM Sans";
+  --size-14-size-14-medium: "Kumbh Sans";
+  --small: "Open Sans";
+  --font-athiti: Athiti;
+  --bold-bold-12: Roboto;
+  --title-poppins-large: Poppins;
+  --font-quicksand: Quicksand;
+  --font-mulish: Mulish;
+  --font-raleway: Raleway;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --small-size: 12px;
+  --size-14-size-14-medium-size: 14px;
+  --font-size-6xs-8: 6.8px;
+  --font-size-2xs-1: 10.1px;
+  --font-size-3xs-5: 9.5px;
+  --font-size-lgi: 19px;
+  --font-size-7xs-6: 5.6px;
+  --font-size-11xl-4: 30.4px;
+  --font-size-base-5: 15.5px;
+  --font-size-lg-1: 18.1px;
+  --font-size-mid-6: 17.6px;
+  --font-size-xl: 20px;
+  --font-size-smi: 13px;
+  --font-size-lgi-6: 19.6px;
+  --font-size-base-9: 16.9px;
+  --font-size-sm-1: 13.1px;
+  --font-size-xs-2: 11.2px;
+  --font-size-4xs-2: 8.2px;
+  --font-size-xs-6: 11.6px;
+  --font-size-sm-2: 13.2px;
+  --font-size-lgi-8: 19.8px;
+  --font-size-4xl-2: 23.2px;
+  --font-size-sm-5: 13.5px;
+  --font-size-4xs-4: 8.4px;
+  --font-size-3xs: 10px;
+  --font-size-base-3: 15.3px;
+  --font-size-smi-3: 12.3px;
+  --font-size-xs-4: 11.4px;
+  --font-size-5xs-4: 7.4px;
+  --font-size-2xs: 11px;
+  --font-size-4xs-6: 8.6px;
+  --font-size-4xs-7: 8.7px;
+  --font-size-5xs-5: 7.5px;
+  --font-size-7xs-4: 5.4px;
+  --font-size-8xs-8: 4.8px;
+  --font-size-8xs-1: 4.1px;
+  --font-size-6xs-1: 6.1px;
+  --font-size-5xs-7: 7.7px;
+  --font-size-6xs-6: 6.6px;
+  --font-size-5xs: 8px;
+  --font-size-2xs-3: 10.3px;
+  --font-size-4xs: 9px;
+  --font-size-2xs-2: 10.2px;
+  --font-size-5xs-6: 7.6px;
+  --title-poppins-large-size: 22px;
+  --font-size-base-4: 15.4px;
+  --font-size-base-8: 16.8px;
+  --font-size-9xl-8: 28.8px;
+  --font-size-2xl-6: 21.6px;
+  --font-size-10xl-7: 29.7px;
+  --font-size-5xl: 24px;
+  --font-size-mid-9: 17.9px;
+
+
+  /* Colors */
+  --color-red-200: #fc0f0f;
+  --color-mediumseagreen-100: #72bf65;
+  --neutral-100: #fff;
+  --color-lavender: #ede7f9;
+  --darkish-color-dark-bg: #1c1a2e;
+  --main-primary: #4c49ed;
+  --light-color-4: #289bf6;
+  --color-maroon: #591a1a;
+  --main-black: #000;
+  --color-aliceblue: #eff5ff;
+  --text-color-text-3: #78778b;
+  --neutral-600: #6f6c90;
+  --neutral-300: #eff0f6;
+  --color-brown: rgba(172, 59, 59, 0.69);
+  --primary-100: #2752e7;
+  --base-80: #626262;
+  --base-40: #cacaca;
+  --base-60: #a9a9a9;
+  --base-20: #e3e3e3;
+  --secondary-color: #29a073;
+  --text-color-text-2: #929eae;
+  --main-green: #4fd18b;
+  --main-grey: #a1a0bd;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-6xl: 25px;
+  --gap-5xs: 8px;
+  --gap-mid: 17px;
+  --gap-0: 0px;
+  --gap-16xl: 35px;
+  --gap-4xs: 9px;
+  --gap-8xs: 5px;
+  --gap-xl: 20px;
+  --gap-11xl: 30px;
+  --gap-21xl: 40px;
+  --gap-2xs-8: 10.8px;
+  --gap-xs: 12px;
+  --gap-6xs: 7px;
+  --gap-7xs: 6px;
+  --gap-mini: 15px;
+  --gap-10xs-9: 2.9px;
+  --gap-11xs: 2px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-13xl: 32px;
+  --padding-sm: 14px;
+  --padding-xl: 20px;
+  --padding-38xl: 57px;
+  --padding-22xl: 41px;
+  --padding-11xl: 30px;
+  --padding-18xl: 37px;
+  --padding-mini: 15px;
+  --padding-6xl: 25px;
+  --padding-base: 16px;
+  --padding-62xl: 81px;
+  --padding-12xs: 1px;
+  --padding-4xs: 9px;
+  --padding-3xs: 10px;
+  --padding-mini-4: 14.4px;
+  --padding-5xl: 24px;
+
+  /* border radiuses */
+  --br-5xl: 24px;
+  --br-27xl-1: 46.1px;
+  --br-3xs: 10px;
+  --br-19xl-4: 38.4px;
+  --br-10xs: 3px;
+  --br-9xs-6: 3.6px;
+  --br-13xl-9: 32.9px;
+  --br-5xs: 8px;
+}

@@ -1,7 +1,7 @@
 # Wine Investment Platform with Blockchain Integration
 
 ## Overview
-This project is part of our thesis work, where we designed and developed a secure platform for trading our platform’s tokens, which can be used to buy and sell wines. This repository contains the frontend codebase that I led and developed.
+This project is part of our thesis work (4 developers), where we designed and developed a secure platform for trading our platform’s tokens, which can be used to buy and sell wines. This repository contains the frontend codebase that I led and developed.
 
 ## Table of Contents
 - [Project Description](#project-description)

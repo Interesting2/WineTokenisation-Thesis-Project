@@ -51,6 +51,7 @@ As the frontend lead, my key contributions include:
 - **State Management:** useEffect
 - **Blockchain Integration:** web3, Metamask
 - **API Integration:** Axios
+- **Candlestick charts visualisation:** ApexCharts
 
 ## Setup and Installation
 

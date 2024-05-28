@@ -1,18 +1,77 @@
-This codebase is for our thesis project, where I lead the frontend development and design of our website. 
+# Wine Investment Platform with Blockchain Integration
 
-The main research direction of this project is designing and developing a secured platform to trade our own platform’s tokens and use them to buy and sell wines. My contribution as a frontend developer in this project are shown below:
-Participated in and contributed in the Requirement Analysis and Architecture Design stages.
-Setup the structure of our frontend.
-Lead the Design and Implementation of the frontend of our whole system
-Contributed to the System Integration and Testing stage by conducting testing for our frontend.
+## Overview
+This project is part of our thesis work, where we designed and developed a secure platform for trading our platform’s tokens, which can be used to buy and sell wines. This repository contains the frontend codebase that I led and developed.
 
+## Table of Contents
+- [Project Description](#project-description)
+- [Main Contributions](#main-contributions)
+- [Achievements](#achievements)
+- [Technical Stack](#technical-stack)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [License](#license)
 
-The main achievements made during the course of this thesis project are outlined in this statement.
-Creative Integration: Effectively created and put into use a cutting-edge platform that connects contemporary blockchain technology with traditional wine investing. With the help of this platform, wine assets may be tokenized, opening up new avenues for trade and investment.
-Platform Development: A user-friendly, dependable, and safe interface has been created to make wine investing easier for people with different degrees of technical skill. To guarantee the platform's integrity and functionality, its robustness was put to the test with great care using extensive testing methodologies.
-User Centric Design: Utilised a User Centric design approach, involving potential users in the design process to ensure the platform meets their needs and expectations. This approach led to a highly intuitive user experience and interface.
-Research Contribution: By examining how blockchain technology affects conventional sectors and providing a case study of its implementation in the wine industry, the thesis advances both academic and practical knowledge.
-Technical Proficiency: Set the standard for upcoming initiatives in the field by skillfully using a variety of contemporary development tools and technologies, such as React.js, useEffect for state management, web3 for smart contract and Metamask integration and Axios for API integration.
+## Project Description
+The main research direction of this project is to design and develop a secure platform that allows users to trade platform-specific tokens and use them for buying and selling wines. This project bridges contemporary blockchain technology with traditional wine investing.
 
+## Main Contributions
+As the frontend lead, my key contributions include:
+- **Requirement Analysis and Architecture Design:** Participated in and contributed to these stages.
+- **Frontend Structure Setup:** Set up the overall structure of the frontend.
+- **Design and Implementation:** Led the design and implementation of the entire frontend system.
+- **System Integration and Testing:** Contributed to the integration and conducted extensive testing for the frontend.
 
-Note: The original codebase was set private by a teammate, so i pushed my own code locally to my git repo in the end.
+## Achievements
+### Creative Integration
+- Developed and deployed a cutting-edge platform that integrates blockchain technology with traditional wine investing.
+- Enabled tokenization of wine assets, opening new avenues for trade and investment.
+
+### Platform Development
+- Created a user-friendly, reliable, and secure interface to facilitate wine investment for users of varying technical skills.
+- Ensured platform integrity and functionality through extensive testing methodologies.
+
+### User-Centric Design
+- Employed a user-centric design approach, involving potential users in the design process to meet their needs and expectations.
+- Achieved a highly intuitive user experience and interface.
+
+### Research Contribution
+- Advanced both academic and practical knowledge by exploring the impact of blockchain technology on traditional sectors.
+- Provided a case study of blockchain implementation in the wine industry.
+
+### Technical Proficiency
+- Set a standard for future projects by effectively using modern development tools and technologies such as:
+  - **React.js** for the frontend framework.
+  - **useEffect** for state management.
+  - **web3** for smart contract and Metamask integration.
+  - **Axios** for API integration.
+
+## Technical Stack
+- **Frontend Framework:** React.js
+- **State Management:** useEffect
+- **Blockchain Integration:** web3, Metamask
+- **API Integration:** Axios
+
+## Setup and Installation
+
+### Backend
+1. Navigate to the `node_app` directory:
+   ```bash
+   cd node_app
+2. Install all necessary dependencies, build the project and run the backend:
+   ```bash
+   npm install
+   npm run build
+   node server.js
+
+### Frontend
+1. Navigate to frontend, install all dependencies and run the website
+   ```bash
+   cd frontend
+   npm i
+   npm start
+
+### Smart Contracts
+1. Navigate to the smart_contract folder and follow the readme instructions inside
+   ```bash
+   cd smart_contract

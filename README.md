@@ -62,8 +62,7 @@ As the frontend lead, my key contributions include:
 2. Install all necessary dependencies, build the project and run the backend:
    ```bash
    npm install
-   npm run build
-   node server.js
+   npm start
 
 ### Frontend
 1. Navigate to frontend, install all dependencies and run the website
